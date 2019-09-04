@@ -1,0 +1,41 @@
+body{
+	background-color: #ADD8E6;
+}
+div{
+	background-color: pink;
+}
+nav{
+	font-size: 60px;
+	background-color: yellow;
+}
+h1{
+	font-size: 80px;
+}
+p{
+	font-size: 40px;
+}
+main{
+	font-size: 20px;
+}
+h1{
+	color: red;
+}
+ul,ol,dl{
+	padding-left: 0px;
+	list-style-position: inside;
+	font-weight: bold;
+	text-indent: 5px;
+}
+li{
+	padding-left: 20px;
+}
+li,dt,dd{
+	font-weight: normal;
+}
+h4{
+	font-weight: 200;
+	font-style: italic;
+}
+#catagoryBreak{
+	background-color: #82A7B3;
+}
