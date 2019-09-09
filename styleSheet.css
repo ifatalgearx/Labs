@@ -1,9 +1,6 @@
 body{
 	background-color: #ADD8E6;
 }
-div{
-	background-color: pink;
-}
 nav{
 	font-size: 60px;
 	background-color: yellow;
@@ -16,6 +13,7 @@ p{
 }
 main{
 	font-size: 20px;
+	padding-bottom: 10px;
 }
 h1{
 	color: red;
@@ -35,6 +33,27 @@ li,dt,dd{
 h4{
 	font-weight: 200;
 	font-style: italic;
+}
+.left{
+	float: left;
+	width:80%;
+}
+.right{
+	width:20%;
+}
+#pageContainer{
+	background-color:pink;
+	position: relative;
+	min-height: 100vh;
+}
+#contentWrap{
+	padding-bottom:2.5rem;
+}
+#footer{
+	position:absolute;
+	width:100%;
+	bottom:0;
+	height:2.5rem;
 }
 #catagoryBreak{
 	background-color: #82A7B3;
