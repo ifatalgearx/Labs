@@ -1,0 +1,52 @@
+body{
+	background-color: #ADD8E6;
+	float:center;
+	font-family:"Comic Sans MS";
+	font-size:30px;
+}
+#content{
+	width:85%;
+	margin-right:auto;
+	margin-left: auto;
+}
+header{
+	position:relative;
+	text-align:center;
+	font-size:50px;
+}
+#headerImg{
+	width:100%;
+	height:200px;
+}
+#headerText{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -65%);
+}
+nav{
+	padding-left:50px;
+	padding-bottom:150px;
+	margin-right:auto;
+	margin-left: auto;
+}
+nav a{
+	width:20%;
+	float:left;
+	font-size:40px;
+	text-decoration:none;
+	color:black;
+}
+.navImg{
+	height:100px;
+	width:100px;
+}
+h1{
+	font-size:40px;
+}
+footer{
+	font-size:15px;
+	font-style:italic;
+	font-weight:lighter;
+	text-align:center;
+}
